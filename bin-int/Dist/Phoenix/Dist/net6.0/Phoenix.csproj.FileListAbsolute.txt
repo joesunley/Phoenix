@@ -1,0 +1,10 @@
+C:\Dev\Phoenix\bin\Dist\Phoenix\Dist\net6.0\Phoenix.deps.json
+C:\Dev\Phoenix\bin\Dist\Phoenix\Dist\net6.0\Phoenix.dll
+C:\Dev\Phoenix\bin\Dist\Phoenix\Dist\net6.0\ref\Phoenix.dll
+C:\Dev\Phoenix\bin\Dist\Phoenix\Dist\net6.0\Phoenix.pdb
+C:\Dev\Phoenix\bin-int\Dist\Phoenix\Dist\net6.0\Phoenix.GlobalUsings.g.cs
+C:\Dev\Phoenix\bin-int\Dist\Phoenix\Dist\net6.0\Phoenix.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Phoenix\bin-int\Dist\Phoenix\Dist\net6.0\Phoenix.csproj.CoreCompileInputs.cache
+C:\Dev\Phoenix\bin-int\Dist\Phoenix\Dist\net6.0\Phoenix.dll
+C:\Dev\Phoenix\bin-int\Dist\Phoenix\Dist\net6.0\ref\Phoenix.dll
+C:\Dev\Phoenix\bin-int\Dist\Phoenix\Dist\net6.0\Phoenix.pdb

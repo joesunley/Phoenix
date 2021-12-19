@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	<GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+	<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+
+	<TargetFramework>net6.0</TargetFramework>
+	<ImplicitUsings>enable</ImplicitUsings>
+	<Nullable>enable</Nullable>
+	<Configurations>Debug;Release;Dist</Configurations>
+	  <OutputPath>..\bin\$(Configuration)\Phoenix</OutputPath>
+	<BaseIntermediateOutputPath>..\bin-int\$(Configuration)\Phoenix</BaseIntermediateOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+	<Folder Include="src\" />
+  </ItemGroup>
+
+</Project>

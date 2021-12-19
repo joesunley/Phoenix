@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+	  <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+
+	  <OutputType>Exe</OutputType>
+	  <TargetFramework>net6.0</TargetFramework>
+	  <ImplicitUsings>enable</ImplicitUsings>
+	  <Nullable>enable</Nullable>
+	  <Configurations>Debug;Release;Dist</Configurations>
+	  <OutputPath>..\bin\$(Configuration)\Sandbox</OutputPath>
+	  <BaseIntermediateOutputPath>..\bin-int\$(Configuration)\Sandbox</BaseIntermediateOutputPath>
+
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Phoenix\Phoenix.csproj" />
+  </ItemGroup>
+
+</Project>
