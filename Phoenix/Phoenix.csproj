@@ -13,7 +13,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-	<Folder Include="src\" />
+    <PackageReference Include="NLog" Version="4.7.13" />
   </ItemGroup>
 
 </Project>
