@@ -3,10 +3,10 @@
 
 public partial class Events
 {
-    public static event Action<MouseButtonEventArgs> MouseDown;
-    public static event Action<MouseButtonEventArgs> MouseUp;
-    public static event Action<MouseMoveEventArgs> MouseMove;
-    public static event Action<MouseWheelEventArgs> MouseWheel;
+    public static event Action<MouseButtonEventArgs>? MouseDown;
+    public static event Action<MouseButtonEventArgs>? MouseUp;
+    public static event Action<MouseMoveEventArgs>? MouseMove;
+    public static event Action<MouseWheelEventArgs>? MouseWheel;
 
 
     private static void WindowMouseDown(MouseButtonEventArgs e)
