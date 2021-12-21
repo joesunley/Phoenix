@@ -6,7 +6,7 @@ namespace Sandbox
     {
         static void Main()
         {
-            GameWindow window = new GameWindow(GameWindowSettings.Default, NativeWindowSettings.Default);
+            GameWindow window = new (GameWindowSettings.Default, NativeWindowSettings.Default);
 
             Log.Init(NLog.LogLevel.Trace);
             Events.Init(ref window);
