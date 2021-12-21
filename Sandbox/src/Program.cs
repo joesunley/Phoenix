@@ -1,10 +1,17 @@
-﻿namespace Sandbox
+﻿using OpenTK.Windowing.Desktop;
+
+namespace Sandbox
 {
     public class Program
     {
         static void Main()
         {
-            Console.WriteLine("Hello World!");
+            GameWindow window = new GameWindow(GameWindowSettings.Default, NativeWindowSettings.Default);
+
+            Log.Init(NLog.LogLevel.Trace);
+            Events.Init(ref window);
+
+            window.Run();
         }
     }
 }

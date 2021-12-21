@@ -5,6 +5,9 @@
 
     public static void Init(NLog.LogLevel? minConsoleLevel = null, NLog.LogLevel? minFileLevel = null)
     {
+        s_logger = null;
+        s_initalised = false;
+
         var config = new NLog.Config.LoggingConfiguration();
         var logFile = new NLog.Targets.FileTarget("logFile")
         {
@@ -27,12 +30,12 @@
 
         NLog.LogManager.Configuration = config;
 
-        s_initalised = true;
         s_logger = NLog.LogManager.GetCurrentClassLogger();
-
+        s_initalised = true;
     }
 
 #pragma warning disable CS8602 // Dereference of a possibly null reference.
+    // Exception is handled within code but not picked up by vs
 
     public static void Trace(string format, params object?[] args)
     {
@@ -66,5 +69,4 @@
     }
 
 #pragma warning restore CS8602 // Dereference of a possibly null reference.
-
 }
