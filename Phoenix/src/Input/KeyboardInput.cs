@@ -31,7 +31,7 @@ namespace Phoenix.Input
     {
         public static bool IsKeyPressed(Keys key)
         {
-            return (Events.s_CurrentPressedKey != null) ? (key == Events.s_CurrentPressedKey) : false;
+            return (Events.s_CurrentPressedKey != null) ? (Events.s_CurrentPressedKey == key) : false;
         }
         public static bool IsAnyKeyPressed()
         {
