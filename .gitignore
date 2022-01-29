@@ -354,3 +354,5 @@ MigrationBackup/
 # Binaries
 **/bin/
 bin-int/
+
+.idea/
